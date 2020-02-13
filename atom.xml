@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qq1797250957zzhx.github.io/</id>
-    <title>Gridea</title>
-    <updated>2020-02-13T16:55:50.945Z</updated>
+    <title>爱沫飘梦个人日志站</title>
+    <updated>2020-02-13T17:11:10.509Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qq1797250957zzhx.github.io/"/>
     <link rel="self" href="https://qq1797250957zzhx.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>&lt;h1&gt;爱沫飘梦&lt;/h1&gt;
+&lt;p&gt;分享也是一种学习&lt;/p&gt;</subtitle>
     <logo>https://qq1797250957zzhx.github.io/images/avatar.png</logo>
     <icon>https://qq1797250957zzhx.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 爱沫飘梦个人日志站</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://qq1797250957zzhx.github.io/post/hello-gridea</id>
