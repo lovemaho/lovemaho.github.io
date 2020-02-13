@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qq1797250957zzhx.github.io/</id>
     <title>爱沫飘梦个人日志站</title>
-    <updated>2020-02-13T17:39:40.839Z</updated>
+    <updated>2020-02-13T17:46:46.896Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qq1797250957zzhx.github.io/"/>
     <link rel="self" href="https://qq1797250957zzhx.github.io/atom.xml"/>
@@ -17,9 +17,9 @@
         <link href="https://qq1797250957zzhx.github.io/post/hellozhe-li-shi-ai-mo-piao-meng-de-ge-ren-xiao-zhan">
         </link>
         <updated>2020-02-13T17:20:51.000Z</updated>
-        <content type="html"><![CDATA[<h1>写在前面</h1>
+        <content type="html"><![CDATA[<h2>写在前面</h2>
 前端知识上课的时候没听将，所以基础为0，只能勉勉强强靠别人的模板生活。文笔也不怎么好，所以我不指望我能每天周都写的很好，因为看到傻奈的站点也是用Gridea编写，也跟着注册了一个玩玩，发现这个对小白真的好友好啊！
-<h1>关于我的博客怎么做</h1>
+<h2>关于我的博客怎么做</h2>
 写一些关于自己的日常，做做笔记（我啥都不会可能不会做），顺便学习一下html，分享一些自己的资源（好看的？）。]]></content>
     </entry>
 </feed>
