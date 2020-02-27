@@ -1,105 +1,104 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
-<title>Linux系统常用Shell命令 | 爱沫飘梦个人日志站</title>
-<meta name="description" content="&lt;h1&gt;爱沫飘梦&lt;/h1&gt;
-&lt;p&gt;分享也是一种学习&lt;/p&gt;">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://qq1797250957zzhx.github.io//favicon.ico?v=1582819253175">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Linux系统常用Shell命令 | 爱沫飘梦博客</title>
+<link rel="shortcut icon" href="https://qq1797250957zzhx.github.io//favicon.ico?v=1582819827327">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://qq1797250957zzhx.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Linux系统常用Shell命令 | 爱沫飘梦博客 - Atom Feed" href="https://qq1797250957zzhx.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
 
-  
-
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
+    <meta name="description" content="Linux系统常用Shell命令
+学习方法：安照命令功能进行分类学习记忆,熟练掌握常用命令和常用参数
+文件系统操作相关命令
+pwd: print working directory，打印当前工作目录
+cd: change directory..." />
+    <meta name="keywords" content="Linux" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://qq1797250957zzhx.github.io/">爱沫飘梦个人日志站</a></h3>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://qq1797250957zzhx.github.io/">
+  <img class="avatar" src="https://qq1797250957zzhx.github.io//images/avatar.png?v=1582819827327" alt="">
+  </a>
+  <h1 class="site-title">
+    爱沫飘梦博客
+  </h1>
+  <p class="site-description">
+    人生最苦之事，莫过于明知要失去，但是却还没发生。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
-    </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>Linux系统常用Shell命令</h1>
-            <p class="article-meta">
-              2020-02-27
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Linux系统常用Shell命令
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-02-27
+              </span>
+              <span>
+                6 min read
+              </span>
               
-                <a href="https://qq1797250957zzhx.github.io/tag/ELSRFK6Qq/" class="badge warning">
-                  Linux
+                <a href="https://qq1797250957zzhx.github.io/tag/ELSRFK6Qq/" class="post-tag">
+                  # Linux
                 </a>
               
-            </p>
+            </div>
             
-            <div class="post-content">
-              <h1 id="linux系统常用shell命令">Linux系统常用Shell命令</h1>
+              <img class="post-feature-image" src="https://qq1797250957zzhx.github.io//post-images/linux-xi-tong-chang-yong-shell-ming-ling.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="linux系统常用shell命令">Linux系统常用Shell命令</h1>
 <p>学习方法：安照命令功能进行分类学习记忆,熟练掌握常用命令和常用参数</p>
 <h2 id="文件系统操作相关命令">文件系统操作相关命令</h2>
 <p>pwd: print working directory，打印当前工作目录</p>
@@ -204,146 +203,131 @@
 <p>权限 ：所有者  同组人  其他人</p>
 <p>root:任何权限对ROOT没有用，root就是皇帝</p>
 
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#linux%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8shell%E5%91%BD%E4%BB%A4">Linux系统常用Shell命令</a>
+<ul>
+<li><a href="#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">文件系统操作相关命令</a>
+<ul>
+<li><a href="#%E5%8E%8B%E7%BC%A9%E5%8C%85%E5%8E%8B%E7%BC%A9%E5%8C%85%E6%A0%BC%E5%BC%8F">压缩包压缩包格式</a></li>
+<li><a href="#%E6%AF%8F%E6%9D%A1%E5%91%BD%E4%BB%A4%E7%9A%84%E6%A0%BC%E5%BC%8F">每条命令的格式</a></li>
+<li><a href="#%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%86%99%E6%B3%95%E5%BD%A2%E5%BC%8F">文件路径写法形式</a></li>
+</ul>
+</li>
+<li><a href="#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E7%BE%A4%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">用户和组群管理相关命令</a><br>
+*
+<ul>
+<li><a href="#%E7%BB%84%E7%BE%A4group%E7%AE%A1%E7%90%86">组群(group)管理</a></li>
+<li><a href="#%E7%94%A8%E6%88%B7user%E7%AE%A1%E7%90%86">用户(user)管理</a></li>
+<li><a href="#%E8%BF%9B%E7%A8%8B%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">进程(任务)管理相关命令</a></li>
+<li><a href="#%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5">相关概念</a></li>
+<li><a href="#%E7%9B%B8%E5%85%B3%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4">相关常用命令</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">网络配置管理相关命令</a></li>
+<li><a href="#%E7%94%B5%E6%BA%90%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">电源管理相关命令</a></li>
+<li><a href="#%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%8A%B6%E6%80%81%E5%92%8C%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">查看系统状态和配置信息相关命令</a></li>
+<li><a href="#%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%AE%89%E8%A3%85">软件包安装</a></li>
+<li><a href="#%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86">服务管理</a></li>
+</ul>
+</li>
+<li><a href="#linux%E7%B3%BB%E7%BB%9F%E5%93%B2%E5%AD%A6">Linux系统哲学</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
             </div>
           </article>
         </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
-              </div>
-              <a href="https://qq1797250957zzhx.github.io/post/hellozhe-li-shi-ai-mo-piao-meng-de-ge-ren-xiao-zhan/">
-                <h3 class="post-title">
-                  Hello,这里是爱沫飘梦的个人小站
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
 
-          
         
-      </div>
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://qq1797250957zzhx.github.io/post/hellozhe-li-shi-ai-mo-piao-meng-de-ge-ren-xiao-zhan/">
+              <h3 class="post-title">
+                Hello,这里是爱沫飘梦的个人小站
+              </h3>
+            </a>
+          </div>
+        
 
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://qq1797250957zzhx.github.io//images/avatar.png?v=1582819253175" class="no-responsive avatar">
-    <div class="text-muted"><h1>爱沫飘梦</h1>
-<p>分享也是一种学习</p></div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
         
           
-            <li>
-              <a href="https://qq1797250957zzhx.github.io/post/linux-xi-tong-chang-yong-shell-ming-ling/">Linux系统常用Shell命令</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://qq1797250957zzhx.github.io/post/hellozhe-li-shi-ai-mo-piao-meng-de-ge-ren-xiao-zhan/">Hello,这里是爱沫飘梦的个人小站</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://qq1797250957zzhx.github.io/post/about/">关于</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://qq1797250957zzhx.github.io/post/hello-gridea/">Hello Gridea</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://qq1797250957zzhx.github.io/tag/ELSRFK6Qq/" class="badge ">
-          Linux
-        </a>
-      
-        <a href="https://qq1797250957zzhx.github.io/tag/JuQ4xZFfO/" class="badge success">
-          日常
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://qq1797250957zzhx.github.io//atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
+<div id="gitalk-container"></div>
 
-    </div>
+<script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  var gitalk = new Gitalk({
+    clientID: '57f143661f2ef68695fd',
+    clientSecret: 'c13a350bbbaec50f958eca6f7241751241c7fee9',
+    repo: 'qq1797250957zzhx.github.io/',
+    owner: 'qq1797250957zzhx',
+    admin: ['qq1797250957zzhx'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
+          
+        
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://qq1797250957zzhx.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
     <script>
+      hljs.initHighlightingOnLoad()
 
-      var gitalk = new Gitalk({
-        clientID: '57f143661f2ef68695fd',
-        clientSecret: 'c13a350bbbaec50f958eca6f7241751241c7fee9',
-        repo: 'qq1797250957zzhx.github.io/',
-        owner: 'qq1797250957zzhx',
-        admin: ['qq1797250957zzhx'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-      gitalk.render('gitalk-container')
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
     </script>
-  
-
-  
-
-
-
-
   </body>
 </html>
