@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qq1797250957zzhx.github.io/</id>
     <title>爱沫飘梦博客</title>
-    <updated>2020-02-27T16:11:57.520Z</updated>
+    <updated>2020-03-03T12:49:22.390Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qq1797250957zzhx.github.io/"/>
     <link rel="self" href="https://qq1797250957zzhx.github.io/atom.xml"/>
@@ -10,6 +10,59 @@
     <logo>https://qq1797250957zzhx.github.io/images/avatar.png</logo>
     <icon>https://qq1797250957zzhx.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 爱沫飘梦博客</rights>
+    <entry>
+        <title type="html"><![CDATA[在CentOS7.6 4位系统上部署nginx]]></title>
+        <id>https://qq1797250957zzhx.github.io/post/zai-centos76-4-wei-xi-tong-shang-bu-shu-nginx/</id>
+        <link href="https://qq1797250957zzhx.github.io/post/zai-centos76-4-wei-xi-tong-shang-bu-shu-nginx/">
+        </link>
+        <updated>2020-03-03T12:45:36.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="在centos76-4位系统上部署nginx">在CentOS7.6 4位系统上部署nginx</h1>
+<h3 id="nginx是什么">nginx是什么？</h3>
+<p>一款高性能的Web服务器、反向代理服务器</p>
+<h3 id="操作步骤">操作步骤</h3>
+<ol>
+<li>
+<h5 id="从官网下载nginx最新稳定版源码包">从官网下载nginx最新稳定版源码包</h5>
+<pre><code class="language-bash">wget -c http://nginx.org/download/nginx-1.16.1.tar.gz #当前最新稳定版本1.16.1
+</code></pre>
+</li>
+<li>
+<h5 id="解压">解压</h5>
+<pre><code class="language-bash">tar -zxvf nginx-1.16.1.tar.gz
+cd nginx-1.16.1
+</code></pre>
+</li>
+<li>
+<h5 id="安装各种依赖包编译工具和-库等">安装各种依赖包（编译工具和、库等）</h5>
+<pre><code class="language-bash">yum groupinstall -y &quot;Development tools&quot; #一次性将所有基本开发工具安装好
+yum install -y pcre-devel zlib-devel openssl-devel
+</code></pre>
+</li>
+<li>
+<h5 id="配置">配置</h5>
+<pre><code class="language-bash">./configure --prefix=/usr/local/nginx
+</code></pre>
+</li>
+<li>
+<h5 id="组建">组建</h5>
+<pre><code class="language-bash">make
+</code></pre>
+</li>
+<li>
+<h5 id="安装">安装</h5>
+<pre><code class="language-bash">make install
+</code></pre>
+</li>
+<li>
+<h5 id="启动nginx并测试">启动nginx并测试</h5>
+<pre><code class="language-bash">cd /usr/local/nginx/sbin
+./nginx
+#打开任何浏览器，在地址栏输入网址：http://服务器IP地址，如果看到nginx默认网页就说明安装部署成功
+</code></pre>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux系统常用Shell命令]]></title>
         <id>https://qq1797250957zzhx.github.io/post/linux-xi-tong-chang-yong-shell-ming-ling/</id>
